@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <title>Tea Cozy HTML</title>
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/responsive_styles.css" rel="stylesheet" type="text/css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -11,7 +12,7 @@
 
 <body>
 	<header>
-		<img src="media/img-tea-cozy-logo.png" alt="Tea Cozy Logo" style="height: 50px; margin-left: 10px;">
+		<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png" alt="Tea Cozy Logo">
 		<nav id="main-navigation">
 			<a href="#mission">Mission</a>
             <a href="#featured-tea">Featured Tea</a>
@@ -27,20 +28,89 @@
 		</section>
 		
 		<section id="featured-tea">
-			<div id="container-headlines">
+			<div class="container-header">
 			<h2>Tea of the Month</h2>
 			<h4>What's Steeing at The Tea Cozy?</h4>
 			</div>
-			<div id="container-content"></div>
+			<div class="container-figures">
+			<figure id="1">
+				<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="A cup of tea with berrys in it.">
+			  <figcaption>Fall Berry Blitz Tea</figcaption>
+		  </figure>
+							<figure id="2">
+				<img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-spiced-rum.jpg" alt="A box of spiced rum tea which says 'It pays to buy good tea'.">
+
+                    <figcaption>Spiced Rum Tea</figcaption>
+
+                </figure>
+
+                <figure id="3">
+
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-donut.jpg" alt="A donut with sugar on it.">
+
+                    <figcaption>Seasonal Donuts</figcaption>
+
+                </figure>
+
+                <figure id="4">
+
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt="A cup of myrtle tea viewed fom above">
+
+                    <figcaption>Myrtle Ave Tea</figcaption>
+
+                </figure>
+
+                <figure id="5">
+
+                    <img src="https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-bedford-bizarre.jpg" alt="A cup of tea with a pot of sugar at its left">
+
+                    <figcaption>Bedford Bizzarre Tea</figcaption>
+
+              </figure>
+
+            </div>
+
+        </section>
+
+        <section id="locations">
+            <div class="locations-header">
+                <h2>Locations</h2>
+            </div>
+
+			
+			<div class="container-locations">
+			<div class="adress" id="downtown">
+				<h3>Downtown</h3>
+				<p>384 West 4th Street</p>
+				<p>Suite 108</p>
+				<p>Portland, Maine</p>
+				</div>
+				
+			<div class="adress" id="east-bayside">
+				<h3>East Bayside</h3>
+				<p>3433 Phisherman's Avenue</p>
+				<p>(Northwest Corner)</p>
+				<p>Portland, Maine</p>
+				</div>
+				
+			<div class="adress" id="oakdale">
+				<h3>Oakdale</h3>
+				<p>515 Crescent Avenue</p>
+				<p>Second Floor</p>
+				<p>Portland, Maine</p>
+				</div>
+			</div>
 		</section>
 		
-			<section id="locations">
-			<h2>Locations</h2>
+			
+		<section id="contact">
+			<h2>The Tea Cozy</h2>
+			<h5>contact@theteacozy.com</h5>
+			<p>917-555-8904</p>
 		</section>
-		
 	</main>
 	<footer>
-		<p>copyright The Tea Cozy 2017</p>
+	  <p>copyright The Tea Cozy 2017</p>
 	</footer>
 </body>
 </html>

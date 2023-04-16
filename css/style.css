@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	}
+
+html, body {
+	background-color:#000;
+	height: 100%;
+}
+
+p, h1, h2, h3, h4, a {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 22px;
+	color: seashell;
+	opacity: 0.9;
+	text-align: center;
+}
+
+header {
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid seashell;
+	position: fixed;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+header a{
+	margin: 10px;
+}
+
+nav {
+	text-decoration: underline;
+	list-style: none;
+	display: inline-block;
+	right:10px!important;
+}
+
+main {
+	position: relative;
+	top:70px;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 66px;
+}
+
+#mission {
+	position: relative;
+	display: block;
+	width: 1200px;
+	
+}
+
+footer {
+	padding: 20px;
+	position: absolute;
+	bottom:0!important;
+	display: flex;
+	justify-content: left;
+}
